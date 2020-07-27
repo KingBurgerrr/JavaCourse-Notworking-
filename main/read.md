@@ -1,0 +1,1 @@
+Hello world, its`s first commit fo Java Course
