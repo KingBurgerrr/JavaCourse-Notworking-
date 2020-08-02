@@ -3,6 +3,8 @@ package abstracts;
 public class Circle {
     private int rad;
     private int diam;
+    double a = 3.14;
+    double b = 2;
 
     public int getRad() {
         return rad;
@@ -21,7 +23,7 @@ public class Circle {
         this.diam = 9;
     }
     public double area() {
-        return 3.14 * getDiam();
+        return 3.14 * Math.pow(getDiam(), 2)/4;
     }
     public double lenght() {
         return (3.14 * 2) * getRad();
